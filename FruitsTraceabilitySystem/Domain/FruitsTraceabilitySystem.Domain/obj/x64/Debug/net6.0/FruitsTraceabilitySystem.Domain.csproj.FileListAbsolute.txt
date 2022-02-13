@@ -1,0 +1,12 @@
+C:\Users\USER-PC\Documents\Visual Studio 2022\src\FruitsTraceabilitySystem\Domain\FruitsTraceabilitySystem.Domain\bin\x64\Debug\net6.0\FruitsTraceabilitySystem.Domain.deps.json
+C:\Users\USER-PC\Documents\Visual Studio 2022\src\FruitsTraceabilitySystem\Domain\FruitsTraceabilitySystem.Domain\bin\x64\Debug\net6.0\FruitsTraceabilitySystem.Domain.dll
+C:\Users\USER-PC\Documents\Visual Studio 2022\src\FruitsTraceabilitySystem\Domain\FruitsTraceabilitySystem.Domain\bin\x64\Debug\net6.0\ref\FruitsTraceabilitySystem.Domain.dll
+C:\Users\USER-PC\Documents\Visual Studio 2022\src\FruitsTraceabilitySystem\Domain\FruitsTraceabilitySystem.Domain\bin\x64\Debug\net6.0\FruitsTraceabilitySystem.Domain.pdb
+C:\Users\USER-PC\Documents\Visual Studio 2022\src\FruitsTraceabilitySystem\Domain\FruitsTraceabilitySystem.Domain\obj\x64\Debug\net6.0\FruitsTraceabilitySystem.Domain.csproj.AssemblyReference.cache
+C:\Users\USER-PC\Documents\Visual Studio 2022\src\FruitsTraceabilitySystem\Domain\FruitsTraceabilitySystem.Domain\obj\x64\Debug\net6.0\FruitsTraceabilitySystem.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\USER-PC\Documents\Visual Studio 2022\src\FruitsTraceabilitySystem\Domain\FruitsTraceabilitySystem.Domain\obj\x64\Debug\net6.0\FruitsTraceabilitySystem.Domain.AssemblyInfoInputs.cache
+C:\Users\USER-PC\Documents\Visual Studio 2022\src\FruitsTraceabilitySystem\Domain\FruitsTraceabilitySystem.Domain\obj\x64\Debug\net6.0\FruitsTraceabilitySystem.Domain.AssemblyInfo.cs
+C:\Users\USER-PC\Documents\Visual Studio 2022\src\FruitsTraceabilitySystem\Domain\FruitsTraceabilitySystem.Domain\obj\x64\Debug\net6.0\FruitsTraceabilitySystem.Domain.csproj.CoreCompileInputs.cache
+C:\Users\USER-PC\Documents\Visual Studio 2022\src\FruitsTraceabilitySystem\Domain\FruitsTraceabilitySystem.Domain\obj\x64\Debug\net6.0\FruitsTraceabilitySystem.Domain.dll
+C:\Users\USER-PC\Documents\Visual Studio 2022\src\FruitsTraceabilitySystem\Domain\FruitsTraceabilitySystem.Domain\obj\x64\Debug\net6.0\ref\FruitsTraceabilitySystem.Domain.dll
+C:\Users\USER-PC\Documents\Visual Studio 2022\src\FruitsTraceabilitySystem\Domain\FruitsTraceabilitySystem.Domain\obj\x64\Debug\net6.0\FruitsTraceabilitySystem.Domain.pdb

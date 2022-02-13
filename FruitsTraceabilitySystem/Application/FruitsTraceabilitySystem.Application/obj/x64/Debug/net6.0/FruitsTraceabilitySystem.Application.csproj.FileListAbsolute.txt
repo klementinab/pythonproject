@@ -1,0 +1,15 @@
+C:\Users\USER-PC\Documents\Visual Studio 2022\src\FruitsTraceabilitySystem\Application\FruitsTraceabilitySystem.Application\bin\x64\Debug\net6.0\FruitsTraceabilitySystem.Application.deps.json
+C:\Users\USER-PC\Documents\Visual Studio 2022\src\FruitsTraceabilitySystem\Application\FruitsTraceabilitySystem.Application\bin\x64\Debug\net6.0\FruitsTraceabilitySystem.Application.dll
+C:\Users\USER-PC\Documents\Visual Studio 2022\src\FruitsTraceabilitySystem\Application\FruitsTraceabilitySystem.Application\bin\x64\Debug\net6.0\ref\FruitsTraceabilitySystem.Application.dll
+C:\Users\USER-PC\Documents\Visual Studio 2022\src\FruitsTraceabilitySystem\Application\FruitsTraceabilitySystem.Application\bin\x64\Debug\net6.0\FruitsTraceabilitySystem.Application.pdb
+C:\Users\USER-PC\Documents\Visual Studio 2022\src\FruitsTraceabilitySystem\Application\FruitsTraceabilitySystem.Application\bin\x64\Debug\net6.0\FruitsTraceabilitySystem.Domain.dll
+C:\Users\USER-PC\Documents\Visual Studio 2022\src\FruitsTraceabilitySystem\Application\FruitsTraceabilitySystem.Application\bin\x64\Debug\net6.0\FruitsTraceabilitySystem.Domain.pdb
+C:\Users\USER-PC\Documents\Visual Studio 2022\src\FruitsTraceabilitySystem\Application\FruitsTraceabilitySystem.Application\obj\x64\Debug\net6.0\FruitsTraceabilitySystem.Application.csproj.AssemblyReference.cache
+C:\Users\USER-PC\Documents\Visual Studio 2022\src\FruitsTraceabilitySystem\Application\FruitsTraceabilitySystem.Application\obj\x64\Debug\net6.0\FruitsTraceabilitySystem.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\USER-PC\Documents\Visual Studio 2022\src\FruitsTraceabilitySystem\Application\FruitsTraceabilitySystem.Application\obj\x64\Debug\net6.0\FruitsTraceabilitySystem.Application.AssemblyInfoInputs.cache
+C:\Users\USER-PC\Documents\Visual Studio 2022\src\FruitsTraceabilitySystem\Application\FruitsTraceabilitySystem.Application\obj\x64\Debug\net6.0\FruitsTraceabilitySystem.Application.AssemblyInfo.cs
+C:\Users\USER-PC\Documents\Visual Studio 2022\src\FruitsTraceabilitySystem\Application\FruitsTraceabilitySystem.Application\obj\x64\Debug\net6.0\FruitsTraceabilitySystem.Application.csproj.CoreCompileInputs.cache
+C:\Users\USER-PC\Documents\Visual Studio 2022\src\FruitsTraceabilitySystem\Application\FruitsTraceabilitySystem.Application\obj\x64\Debug\net6.0\FruitsTraceabilitySystem.Application.csproj.CopyComplete
+C:\Users\USER-PC\Documents\Visual Studio 2022\src\FruitsTraceabilitySystem\Application\FruitsTraceabilitySystem.Application\obj\x64\Debug\net6.0\FruitsTraceabilitySystem.Application.dll
+C:\Users\USER-PC\Documents\Visual Studio 2022\src\FruitsTraceabilitySystem\Application\FruitsTraceabilitySystem.Application\obj\x64\Debug\net6.0\ref\FruitsTraceabilitySystem.Application.dll
+C:\Users\USER-PC\Documents\Visual Studio 2022\src\FruitsTraceabilitySystem\Application\FruitsTraceabilitySystem.Application\obj\x64\Debug\net6.0\FruitsTraceabilitySystem.Application.pdb

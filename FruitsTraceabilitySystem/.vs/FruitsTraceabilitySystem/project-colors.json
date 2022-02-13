@@ -1,0 +1,41 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "98d91be5-4d18-4e70-aa42-6ceb97660e59": {
+      "ProjectGuid": "98d91be5-4d18-4e70-aa42-6ceb97660e59",
+      "DisplayName": "FruitsTraceabilitySystem.Web",
+      "ColorIndex": 0
+    },
+    "3cff0261-5f4a-47ec-8e82-1e0644663be1": {
+      "ProjectGuid": "3cff0261-5f4a-47ec-8e82-1e0644663be1",
+      "DisplayName": "FruitsTraceabilitySystem.Web",
+      "ColorIndex": 1
+    },
+    "ebd52ae2-7639-4ff2-aeb1-104de7e8b1c6": {
+      "ProjectGuid": "ebd52ae2-7639-4ff2-aeb1-104de7e8b1c6",
+      "DisplayName": "FruitsTraceabilitySystem.Domain",
+      "ColorIndex": 2
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    },
+    "5df79edd-8f2a-4704-a4db-1ce801796825": {
+      "ProjectGuid": "5df79edd-8f2a-4704-a4db-1ce801796825",
+      "DisplayName": "FruitsTraceabilitySystem.Infra.Data",
+      "ColorIndex": 3
+    },
+    "0728fd20-2c27-49cd-8ea3-cce910fece1d": {
+      "ProjectGuid": "0728fd20-2c27-49cd-8ea3-cce910fece1d",
+      "DisplayName": "FruitsTraceabilitySystem.Application",
+      "ColorIndex": 4
+    },
+    "62de4af3-3d8f-4be4-b7d3-9d0937a54823": {
+      "ProjectGuid": "62de4af3-3d8f-4be4-b7d3-9d0937a54823",
+      "DisplayName": "FruitsTraceabilitySystem.Infra.IoC",
+      "ColorIndex": 5
+    }
+  },
+  "NextColorIndex": 6
+}

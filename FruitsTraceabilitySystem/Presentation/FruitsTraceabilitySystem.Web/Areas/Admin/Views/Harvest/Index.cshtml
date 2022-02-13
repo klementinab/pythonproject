@@ -1,0 +1,52 @@
+﻿@using FruitsTraceabilitySystem.Application.ViewModels.Harvests
+@model IEnumerable<HarvestViewModel>
+<div class="container p-3">
+    <div class="row pt-4">
+        <div class="col-6">
+            <h2 class="text-primary">Harvesting List</h2>
+        </div>
+        <div class="col-6 text-end">
+            <a asp-controller="Harvest" asp-action="Created" class="btn btn-primary"><i class="far fa-plus-circle"></i> &nbsp; New Harvest</a>
+        </div>
+    </div>
+</div>
+<br/>
+<br/>
+<table class="table table-bordered table-striped" style="width:100%">
+    <thead>
+        <tr>
+            <th>
+                Harvest Id
+            </th>
+            <th>
+                Product Name
+            </th>
+            <th>
+                User Name
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach(var harvest in Model)
+        {
+            <tr>
+                <td width="35%">
+                    @harvest.Id
+                </td> 
+                <td width="30%">
+                    @harvest.Product.Name
+                </td>
+                <td width="20%">
+                    @harvest.User.Name
+                </td>
+                <td>
+                    <div class="w-75 btn-group" role="group">
+                        <a asp-controller="Harvest" class="btn btn-primary mx-2" asp-route-id="@harvest.Id" asp-action="Edit"><i class="fad fa-file-edit"></i></a>
+                        <a asp-controller="Harvest" class="btn btn-danger mx-2" asp-route-id="@harvest.Id" asp-action="Delete"><i class="fad fa-trash-alt"></i></a>
+                    </div>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

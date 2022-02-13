@@ -1,0 +1,24 @@
+﻿@using FruitsTraceabilitySystem.Application.ViewModels.Sortings
+@model SortingViewModel
+
+<form method="post" asp-action="Delete">
+    <input asp-for="Id" hidden />
+    <div class="border p-3 mt-4">
+        <div class="row pb-2">
+            <h2 class="text-primary">Delete Sorting</h2>
+            <hr />
+        </div>
+            <label asp-for="Harvest"></label>
+              <select asp-for="HarvestId" asp-items="ViewBag.ProductList" class="form-select" disabled>
+                    <option disabled selected>--Selected Product--</option>
+             </select>
+        </div>
+        <button type="submit" class="btn btn-danger" style="width:150px"><i class="fad fa-trash-alt"></i> Delete</button>
+        <a asp-controller="Sorting" disabled asp-action="Index" class="btn btn-primary" style="width:150px"><i class="fad fa-long-arrow-left"></i> Back</a>
+    </div>
+</form>
+@section Scripts{
+    @{
+        <partial name="_ValidationScriptsPartial" />
+    }
+}

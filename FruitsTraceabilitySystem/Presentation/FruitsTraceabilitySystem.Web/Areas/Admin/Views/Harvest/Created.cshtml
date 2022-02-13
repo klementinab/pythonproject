@@ -1,0 +1,26 @@
+﻿@using FruitsTraceabilitySystem.Application.ViewModels.Harvests
+@model HarvestViewModel
+
+<form method="post">
+    <div class="border p-3 mt-4">
+        <div class="row pb-2">
+            <h2 class="text-primary">Created Harvest</h2>
+            <hr />
+        </div>
+        <div asp-validation-summary="All"></div>
+         <div class="mb-3">
+            <label asp-for="Product"></label>
+             <select asp-for="ProductId" asp-items="ViewBag.ProductList" class="form-select">
+                    <option disabled selected>--Selected Product--</option>
+             </select>
+            <span asp-validation-for="Product" class="text-danger"></span>
+        </div>
+        <button type="submit" class="btn btn-primary" style="width:150px"><i class="fad fa-plus"></i> Created</button>
+        <a asp-controller="Harvest" asp-action="Index" class="btn btn-danger" style="width:150px"><i class="fad fa-long-arrow-left"></i> Back</a>
+    </div>
+</form>
+@section Scripts{
+    @{
+        <partial name="_ValidationScriptsPartial" />
+    }
+}

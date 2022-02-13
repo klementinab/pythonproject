@@ -1,0 +1,35 @@
+﻿@using FruitsTraceabilitySystem.Application.ViewModels.Products
+@model ProductViewModel
+
+<form method="post" asp-action="Delete">
+    <input asp-for="Id" hidden />
+    <div class="border p-3 mt-4">
+        <div class="row pb-2">
+            <h2 class="text-primary">Delete Product</h2>
+            <hr />
+        </div>
+        @*<div asp-validation-summary="All"></div>*@
+        <div class="mb-3">
+            <label asp-for="Name"></label>
+            <input asp-for="Name" disabled class="form-control" />
+        </div>
+         <div class="mb-3">
+            <label asp-for="Quantity"></label>
+            <input asp-for="Quantity" disabled class="form-control" />
+        </div>
+         <div class="mb-3">
+            <label asp-for="Category"></label>
+            @*<input asp-for="Category" disabled class="form-control" />*@
+              <select asp-for="CategoryId" asp-items="ViewBag.CategoryList" class="form-select" disabled>
+                    <option disabled selected>--Selected Category--</option>
+             </select>
+        </div>
+        <button type="submit" class="btn btn-danger" style="width:150px"><i class="fad fa-trash-alt"></i> Delete</button>
+        <a asp-controller="Product" disabled asp-action="Index" class="btn btn-primary" style="width:150px"><i class="fad fa-long-arrow-left"></i> Back</a>
+    </div>
+</form>
+@section Scripts{
+    @{
+        <partial name="_ValidationScriptsPartial" />
+    }
+}
