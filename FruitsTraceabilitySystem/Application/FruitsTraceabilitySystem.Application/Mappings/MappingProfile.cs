@@ -1,12 +1,14 @@
 ﻿using AutoMapper;
 using FruitsTraceabilitySystem.Application.ViewModels.Categories;
 using FruitsTraceabilitySystem.Application.ViewModels.Harvests;
+using FruitsTraceabilitySystem.Application.ViewModels.Locations;
 using FruitsTraceabilitySystem.Application.ViewModels.Packages;
 using FruitsTraceabilitySystem.Application.ViewModels.Packangings;
 using FruitsTraceabilitySystem.Application.ViewModels.Products;
 using FruitsTraceabilitySystem.Application.ViewModels.Sortings;
 using FruitsTraceabilitySystem.Domain.Models.Categories;
 using FruitsTraceabilitySystem.Domain.Models.Harvests;
+using FruitsTraceabilitySystem.Domain.Models.Locations;
 using FruitsTraceabilitySystem.Domain.Models.Packages;
 using FruitsTraceabilitySystem.Domain.Models.Packangins;
 using FruitsTraceabilitySystem.Domain.Models.Products;
@@ -26,6 +28,7 @@ namespace FruitsTraceabilitySystem.Application.Mappings
             CreateMap<SortingViewModel, Sorting>().ReverseMap();
             CreateMap<PackageViewModel, Package>().ReverseMap();
             CreateMap<PackangingViewModel, Packanging>().ReverseMap();
+            CreateMap<LocationViewModel, Location>().ReverseMap();
 
 
             //Domain To Views
@@ -35,6 +38,7 @@ namespace FruitsTraceabilitySystem.Application.Mappings
             CreateMap<Sorting, SortingViewModel>().ReverseMap();
             CreateMap<Package, PackageViewModel>().ReverseMap();
             CreateMap<Packanging, PackangingViewModel>().ReverseMap();
+            CreateMap<Location, LocationViewModel>().ReverseMap();
         }
         #endregion
     }

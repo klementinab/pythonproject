@@ -17,3 +17,22 @@ C:\Users\USER-PC\Documents\Visual Studio 2022\src\FruitsTraceabilitySystem\Infra
 C:\Users\USER-PC\Documents\Visual Studio 2022\src\FruitsTraceabilitySystem\Infra.IoC\FruitsTraceabilitySystem.Infra.IoC\obj\x64\Debug\net6.0\FruitsTraceabilitySystem.Infra.IoC.dll
 C:\Users\USER-PC\Documents\Visual Studio 2022\src\FruitsTraceabilitySystem\Infra.IoC\FruitsTraceabilitySystem.Infra.IoC\obj\x64\Debug\net6.0\ref\FruitsTraceabilitySystem.Infra.IoC.dll
 C:\Users\USER-PC\Documents\Visual Studio 2022\src\FruitsTraceabilitySystem\Infra.IoC\FruitsTraceabilitySystem.Infra.IoC\obj\x64\Debug\net6.0\FruitsTraceabilitySystem.Infra.IoC.pdb
+C:\Users\Klementina\Desktop\Python Project\pythonproject\FruitsTraceabilitySystem\Infra.IoC\FruitsTraceabilitySystem.Infra.IoC\bin\x64\Debug\net6.0\FruitsTraceabilitySystem.Infra.IoC.deps.json
+C:\Users\Klementina\Desktop\Python Project\pythonproject\FruitsTraceabilitySystem\Infra.IoC\FruitsTraceabilitySystem.Infra.IoC\bin\x64\Debug\net6.0\FruitsTraceabilitySystem.Infra.IoC.dll
+C:\Users\Klementina\Desktop\Python Project\pythonproject\FruitsTraceabilitySystem\Infra.IoC\FruitsTraceabilitySystem.Infra.IoC\bin\x64\Debug\net6.0\ref\FruitsTraceabilitySystem.Infra.IoC.dll
+C:\Users\Klementina\Desktop\Python Project\pythonproject\FruitsTraceabilitySystem\Infra.IoC\FruitsTraceabilitySystem.Infra.IoC\bin\x64\Debug\net6.0\FruitsTraceabilitySystem.Infra.IoC.pdb
+C:\Users\Klementina\Desktop\Python Project\pythonproject\FruitsTraceabilitySystem\Infra.IoC\FruitsTraceabilitySystem.Infra.IoC\bin\x64\Debug\net6.0\FruitsTraceabilitySystem.Application.dll
+C:\Users\Klementina\Desktop\Python Project\pythonproject\FruitsTraceabilitySystem\Infra.IoC\FruitsTraceabilitySystem.Infra.IoC\bin\x64\Debug\net6.0\FruitsTraceabilitySystem.Domain.dll
+C:\Users\Klementina\Desktop\Python Project\pythonproject\FruitsTraceabilitySystem\Infra.IoC\FruitsTraceabilitySystem.Infra.IoC\bin\x64\Debug\net6.0\FruitsTraceabilitySystem.Infra.Data.dll
+C:\Users\Klementina\Desktop\Python Project\pythonproject\FruitsTraceabilitySystem\Infra.IoC\FruitsTraceabilitySystem.Infra.IoC\bin\x64\Debug\net6.0\FruitsTraceabilitySystem.Application.pdb
+C:\Users\Klementina\Desktop\Python Project\pythonproject\FruitsTraceabilitySystem\Infra.IoC\FruitsTraceabilitySystem.Infra.IoC\bin\x64\Debug\net6.0\FruitsTraceabilitySystem.Infra.Data.pdb
+C:\Users\Klementina\Desktop\Python Project\pythonproject\FruitsTraceabilitySystem\Infra.IoC\FruitsTraceabilitySystem.Infra.IoC\bin\x64\Debug\net6.0\FruitsTraceabilitySystem.Domain.pdb
+C:\Users\Klementina\Desktop\Python Project\pythonproject\FruitsTraceabilitySystem\Infra.IoC\FruitsTraceabilitySystem.Infra.IoC\obj\x64\Debug\net6.0\FruitsTraceabilitySystem.Infra.IoC.csproj.AssemblyReference.cache
+C:\Users\Klementina\Desktop\Python Project\pythonproject\FruitsTraceabilitySystem\Infra.IoC\FruitsTraceabilitySystem.Infra.IoC\obj\x64\Debug\net6.0\FruitsTraceabilitySystem.Infra.IoC.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Klementina\Desktop\Python Project\pythonproject\FruitsTraceabilitySystem\Infra.IoC\FruitsTraceabilitySystem.Infra.IoC\obj\x64\Debug\net6.0\FruitsTraceabilitySystem.Infra.IoC.AssemblyInfoInputs.cache
+C:\Users\Klementina\Desktop\Python Project\pythonproject\FruitsTraceabilitySystem\Infra.IoC\FruitsTraceabilitySystem.Infra.IoC\obj\x64\Debug\net6.0\FruitsTraceabilitySystem.Infra.IoC.AssemblyInfo.cs
+C:\Users\Klementina\Desktop\Python Project\pythonproject\FruitsTraceabilitySystem\Infra.IoC\FruitsTraceabilitySystem.Infra.IoC\obj\x64\Debug\net6.0\FruitsTraceabilitySystem.Infra.IoC.csproj.CoreCompileInputs.cache
+C:\Users\Klementina\Desktop\Python Project\pythonproject\FruitsTraceabilitySystem\Infra.IoC\FruitsTraceabilitySystem.Infra.IoC\obj\x64\Debug\net6.0\FruitsTraceabilitySystem.Infra.IoC.csproj.CopyComplete
+C:\Users\Klementina\Desktop\Python Project\pythonproject\FruitsTraceabilitySystem\Infra.IoC\FruitsTraceabilitySystem.Infra.IoC\obj\x64\Debug\net6.0\FruitsTraceabilitySystem.Infra.IoC.dll
+C:\Users\Klementina\Desktop\Python Project\pythonproject\FruitsTraceabilitySystem\Infra.IoC\FruitsTraceabilitySystem.Infra.IoC\obj\x64\Debug\net6.0\ref\FruitsTraceabilitySystem.Infra.IoC.dll
+C:\Users\Klementina\Desktop\Python Project\pythonproject\FruitsTraceabilitySystem\Infra.IoC\FruitsTraceabilitySystem.Infra.IoC\obj\x64\Debug\net6.0\FruitsTraceabilitySystem.Infra.IoC.pdb

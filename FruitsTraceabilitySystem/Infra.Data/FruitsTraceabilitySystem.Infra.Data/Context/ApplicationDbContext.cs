@@ -1,5 +1,6 @@
 ﻿using FruitsTraceabilitySystem.Domain.Models.Categories;
 using FruitsTraceabilitySystem.Domain.Models.Harvests;
+using FruitsTraceabilitySystem.Domain.Models.Locations;
 using FruitsTraceabilitySystem.Domain.Models.Packages;
 using FruitsTraceabilitySystem.Domain.Models.Packangins;
 using FruitsTraceabilitySystem.Domain.Models.Products;
@@ -19,6 +20,7 @@ namespace FruitsTraceabilitySystem.Infra.Data.Context
         public DbSet<Sorting> Sortings { get; set; }
         public DbSet<Package> Packages { get; set; }
         public DbSet<Packanging> Packangings { get; set; }
+        public DbSet<Location> Locations { get; set; }
         public DbSet<ApplicationUser> ApplicationUsers { get; set; }
         #endregion
 

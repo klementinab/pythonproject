@@ -1,5 +1,6 @@
 ﻿using FruitsTraceabilitySystem.Domain.Interfaces.Categories;
 using FruitsTraceabilitySystem.Domain.Interfaces.Harvests;
+using FruitsTraceabilitySystem.Domain.Interfaces.Locations;
 using FruitsTraceabilitySystem.Domain.Interfaces.Packages;
 using FruitsTraceabilitySystem.Domain.Interfaces.Packangins;
 using FruitsTraceabilitySystem.Domain.Interfaces.Products;
@@ -16,6 +17,7 @@ namespace FruitsTraceabilitySystem.Domain.Interfaces.UnitOfWork
         ISortingRepository Sorting { get; }
         IPackageRepository Package { get; }
         IPackangingRepository Packanging { get; }
+        ILocationRepository Locations { get; }
         #endregion
     }
 }

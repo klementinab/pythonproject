@@ -1,5 +1,6 @@
 ﻿using FruitsTraceabilitySystem.Domain.Interfaces.Categories;
 using FruitsTraceabilitySystem.Domain.Interfaces.Harvests;
+using FruitsTraceabilitySystem.Domain.Interfaces.Locations;
 using FruitsTraceabilitySystem.Domain.Interfaces.Packages;
 using FruitsTraceabilitySystem.Domain.Interfaces.Packangins;
 using FruitsTraceabilitySystem.Domain.Interfaces.Products;
@@ -8,6 +9,7 @@ using FruitsTraceabilitySystem.Domain.Interfaces.UnitOfWork;
 using FruitsTraceabilitySystem.Infra.Data.Context;
 using FruitsTraceabilitySystem.Infra.Data.Repositories.Categories;
 using FruitsTraceabilitySystem.Infra.Data.Repositories.Harvests;
+using FruitsTraceabilitySystem.Infra.Data.Repositories.Locations;
 using FruitsTraceabilitySystem.Infra.Data.Repositories.Packages;
 using FruitsTraceabilitySystem.Infra.Data.Repositories.Packangins;
 using FruitsTraceabilitySystem.Infra.Data.Repositories.Products;
@@ -25,6 +27,8 @@ namespace FruitsTraceabilitySystem.Infra.Data.UnitOfWork
         public ISortingRepository Sorting { get; private set; }
         public IPackageRepository Package { get; private set; }
         public IPackangingRepository Packanging { get; private set; }
+
+        public ILocationRepository Locations { get; private set; }
         #endregion
 
         #region Constructors
@@ -37,6 +41,7 @@ namespace FruitsTraceabilitySystem.Infra.Data.UnitOfWork
             Sorting = new SortingRepository(_applicationDb);
             Package = new PackageRepository(_applicationDb);
             Packanging = new PackangingRepository(_applicationDb);
+            Locations = new LocationRepository(_applicationDb);
         }
         #endregion
     }

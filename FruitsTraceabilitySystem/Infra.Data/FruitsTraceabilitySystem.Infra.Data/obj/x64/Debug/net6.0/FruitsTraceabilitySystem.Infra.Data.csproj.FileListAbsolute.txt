@@ -17,3 +17,22 @@ C:\Users\USER-PC\Documents\Visual Studio 2022\src\FruitsTraceabilitySystem\Infra
 C:\Users\USER-PC\Documents\Visual Studio 2022\src\FruitsTraceabilitySystem\Infra.Data\FruitsTraceabilitySystem.Infra.Data\obj\x64\Debug\net6.0\ref\FruitsTraceabilitySystem.Infra.Data.dll
 C:\Users\USER-PC\Documents\Visual Studio 2022\src\FruitsTraceabilitySystem\Infra.Data\FruitsTraceabilitySystem.Infra.Data\obj\x64\Debug\net6.0\FruitsTraceabilitySystem.Infra.Data.pdb
 C:\Users\USER-PC\Documents\Visual Studio 2022\src\FruitsTraceabilitySystem\Infra.Data\FruitsTraceabilitySystem.Infra.Data\obj\x64\Debug\net6.0\FruitsTraceabilitySystem.Infra.Data.genruntimeconfig.cache
+C:\Users\Klementina\Desktop\Python Project\pythonproject\FruitsTraceabilitySystem\Infra.Data\FruitsTraceabilitySystem.Infra.Data\bin\x64\Debug\net6.0\FruitsTraceabilitySystem.Infra.Data.deps.json
+C:\Users\Klementina\Desktop\Python Project\pythonproject\FruitsTraceabilitySystem\Infra.Data\FruitsTraceabilitySystem.Infra.Data\bin\x64\Debug\net6.0\FruitsTraceabilitySystem.Infra.Data.runtimeconfig.json
+C:\Users\Klementina\Desktop\Python Project\pythonproject\FruitsTraceabilitySystem\Infra.Data\FruitsTraceabilitySystem.Infra.Data\bin\x64\Debug\net6.0\FruitsTraceabilitySystem.Infra.Data.dll
+C:\Users\Klementina\Desktop\Python Project\pythonproject\FruitsTraceabilitySystem\Infra.Data\FruitsTraceabilitySystem.Infra.Data\bin\x64\Debug\net6.0\ref\FruitsTraceabilitySystem.Infra.Data.dll
+C:\Users\Klementina\Desktop\Python Project\pythonproject\FruitsTraceabilitySystem\Infra.Data\FruitsTraceabilitySystem.Infra.Data\bin\x64\Debug\net6.0\FruitsTraceabilitySystem.Infra.Data.pdb
+C:\Users\Klementina\Desktop\Python Project\pythonproject\FruitsTraceabilitySystem\Infra.Data\FruitsTraceabilitySystem.Infra.Data\bin\x64\Debug\net6.0\FruitsTraceabilitySystem.Application.dll
+C:\Users\Klementina\Desktop\Python Project\pythonproject\FruitsTraceabilitySystem\Infra.Data\FruitsTraceabilitySystem.Infra.Data\bin\x64\Debug\net6.0\FruitsTraceabilitySystem.Domain.dll
+C:\Users\Klementina\Desktop\Python Project\pythonproject\FruitsTraceabilitySystem\Infra.Data\FruitsTraceabilitySystem.Infra.Data\bin\x64\Debug\net6.0\FruitsTraceabilitySystem.Application.pdb
+C:\Users\Klementina\Desktop\Python Project\pythonproject\FruitsTraceabilitySystem\Infra.Data\FruitsTraceabilitySystem.Infra.Data\bin\x64\Debug\net6.0\FruitsTraceabilitySystem.Domain.pdb
+C:\Users\Klementina\Desktop\Python Project\pythonproject\FruitsTraceabilitySystem\Infra.Data\FruitsTraceabilitySystem.Infra.Data\obj\x64\Debug\net6.0\FruitsTraceabilitySystem.Infra.Data.csproj.AssemblyReference.cache
+C:\Users\Klementina\Desktop\Python Project\pythonproject\FruitsTraceabilitySystem\Infra.Data\FruitsTraceabilitySystem.Infra.Data\obj\x64\Debug\net6.0\FruitsTraceabilitySystem.Infra.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Klementina\Desktop\Python Project\pythonproject\FruitsTraceabilitySystem\Infra.Data\FruitsTraceabilitySystem.Infra.Data\obj\x64\Debug\net6.0\FruitsTraceabilitySystem.Infra.Data.AssemblyInfoInputs.cache
+C:\Users\Klementina\Desktop\Python Project\pythonproject\FruitsTraceabilitySystem\Infra.Data\FruitsTraceabilitySystem.Infra.Data\obj\x64\Debug\net6.0\FruitsTraceabilitySystem.Infra.Data.AssemblyInfo.cs
+C:\Users\Klementina\Desktop\Python Project\pythonproject\FruitsTraceabilitySystem\Infra.Data\FruitsTraceabilitySystem.Infra.Data\obj\x64\Debug\net6.0\FruitsTraceabilitySystem.Infra.Data.csproj.CoreCompileInputs.cache
+C:\Users\Klementina\Desktop\Python Project\pythonproject\FruitsTraceabilitySystem\Infra.Data\FruitsTraceabilitySystem.Infra.Data\obj\x64\Debug\net6.0\FruitsTraceabilitySystem.Infra.Data.csproj.CopyComplete
+C:\Users\Klementina\Desktop\Python Project\pythonproject\FruitsTraceabilitySystem\Infra.Data\FruitsTraceabilitySystem.Infra.Data\obj\x64\Debug\net6.0\FruitsTraceabilitySystem.Infra.Data.dll
+C:\Users\Klementina\Desktop\Python Project\pythonproject\FruitsTraceabilitySystem\Infra.Data\FruitsTraceabilitySystem.Infra.Data\obj\x64\Debug\net6.0\ref\FruitsTraceabilitySystem.Infra.Data.dll
+C:\Users\Klementina\Desktop\Python Project\pythonproject\FruitsTraceabilitySystem\Infra.Data\FruitsTraceabilitySystem.Infra.Data\obj\x64\Debug\net6.0\FruitsTraceabilitySystem.Infra.Data.pdb
+C:\Users\Klementina\Desktop\Python Project\pythonproject\FruitsTraceabilitySystem\Infra.Data\FruitsTraceabilitySystem.Infra.Data\obj\x64\Debug\net6.0\FruitsTraceabilitySystem.Infra.Data.genruntimeconfig.cache

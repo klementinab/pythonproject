@@ -64,6 +64,23 @@ namespace FruitsTraceabilitySystem.Service.DataAccess.Migrations
                     b.ToTable("Harvests");
                 });
 
+            modelBuilder.Entity("FruitsTraceabilitySystem.Domain.Models.Locations.Location", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"), 1L, 1);
+
+                    b.Property<string>("PlaceName")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Locations");
+                });
+
             modelBuilder.Entity("FruitsTraceabilitySystem.Domain.Models.Packages.Package", b =>
                 {
                     b.Property<int>("Id")
