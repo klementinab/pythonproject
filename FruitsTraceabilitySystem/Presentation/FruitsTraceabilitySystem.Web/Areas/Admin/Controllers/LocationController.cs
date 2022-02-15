@@ -13,19 +13,19 @@ namespace FruitsTraceabilitySystem.Web.Areas.Admin.Controllers
     {
         #region Properties
         private readonly ILocationService _locationService;
+        #endregion
 
+        #region Constructors
         public LocationController(ILocationService locationService)
         {
             _locationService = locationService ?? throw new ArgumentNullException(nameof(locationService));
         }
-
         #endregion
-
 
         #region Methods
         public IActionResult Index()
         {
-            IEnumerable<LocationViewModel>locations = _locationService.GetAll();
+            IEnumerable<LocationViewModel> locations = _locationService.GetAll();
             return View(locations);
         }
         public IActionResult Created()
@@ -44,7 +44,6 @@ namespace FruitsTraceabilitySystem.Web.Areas.Admin.Controllers
             }
             return View(location);
         }
-
         public IActionResult Edit(int? Id)
         {
             if (Id == null || Id == 0)
@@ -70,7 +69,6 @@ namespace FruitsTraceabilitySystem.Web.Areas.Admin.Controllers
             }
             return View(location);
         }
-
         public IActionResult Delete(int? Id)
         {
             if (Id == null || Id == 0)

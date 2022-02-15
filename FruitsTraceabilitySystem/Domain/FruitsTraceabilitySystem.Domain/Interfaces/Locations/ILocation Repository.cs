@@ -1,10 +1,5 @@
 ﻿using FruitsTraceabilitySystem.Domain.Models.Locations;
-using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Linq.Expressions;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace FruitsTraceabilitySystem.Domain.Interfaces.Locations
 {

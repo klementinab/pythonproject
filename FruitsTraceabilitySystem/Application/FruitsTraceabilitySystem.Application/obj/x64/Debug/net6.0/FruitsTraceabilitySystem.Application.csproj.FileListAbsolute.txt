@@ -28,3 +28,18 @@ C:\Users\Klementina\Desktop\Python Project\pythonproject\FruitsTraceabilitySyste
 C:\Users\Klementina\Desktop\Python Project\pythonproject\FruitsTraceabilitySystem\Application\FruitsTraceabilitySystem.Application\obj\x64\Debug\net6.0\FruitsTraceabilitySystem.Application.dll
 C:\Users\Klementina\Desktop\Python Project\pythonproject\FruitsTraceabilitySystem\Application\FruitsTraceabilitySystem.Application\obj\x64\Debug\net6.0\ref\FruitsTraceabilitySystem.Application.dll
 C:\Users\Klementina\Desktop\Python Project\pythonproject\FruitsTraceabilitySystem\Application\FruitsTraceabilitySystem.Application\obj\x64\Debug\net6.0\FruitsTraceabilitySystem.Application.pdb
+C:\src\.Net\pythonproject\FruitsTraceabilitySystem\Application\FruitsTraceabilitySystem.Application\bin\x64\Debug\net6.0\FruitsTraceabilitySystem.Application.deps.json
+C:\src\.Net\pythonproject\FruitsTraceabilitySystem\Application\FruitsTraceabilitySystem.Application\bin\x64\Debug\net6.0\FruitsTraceabilitySystem.Application.dll
+C:\src\.Net\pythonproject\FruitsTraceabilitySystem\Application\FruitsTraceabilitySystem.Application\bin\x64\Debug\net6.0\ref\FruitsTraceabilitySystem.Application.dll
+C:\src\.Net\pythonproject\FruitsTraceabilitySystem\Application\FruitsTraceabilitySystem.Application\bin\x64\Debug\net6.0\FruitsTraceabilitySystem.Application.pdb
+C:\src\.Net\pythonproject\FruitsTraceabilitySystem\Application\FruitsTraceabilitySystem.Application\bin\x64\Debug\net6.0\FruitsTraceabilitySystem.Domain.dll
+C:\src\.Net\pythonproject\FruitsTraceabilitySystem\Application\FruitsTraceabilitySystem.Application\bin\x64\Debug\net6.0\FruitsTraceabilitySystem.Domain.pdb
+C:\src\.Net\pythonproject\FruitsTraceabilitySystem\Application\FruitsTraceabilitySystem.Application\obj\x64\Debug\net6.0\FruitsTraceabilitySystem.Application.csproj.AssemblyReference.cache
+C:\src\.Net\pythonproject\FruitsTraceabilitySystem\Application\FruitsTraceabilitySystem.Application\obj\x64\Debug\net6.0\FruitsTraceabilitySystem.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\src\.Net\pythonproject\FruitsTraceabilitySystem\Application\FruitsTraceabilitySystem.Application\obj\x64\Debug\net6.0\FruitsTraceabilitySystem.Application.AssemblyInfoInputs.cache
+C:\src\.Net\pythonproject\FruitsTraceabilitySystem\Application\FruitsTraceabilitySystem.Application\obj\x64\Debug\net6.0\FruitsTraceabilitySystem.Application.AssemblyInfo.cs
+C:\src\.Net\pythonproject\FruitsTraceabilitySystem\Application\FruitsTraceabilitySystem.Application\obj\x64\Debug\net6.0\FruitsTraceabilitySystem.Application.csproj.CoreCompileInputs.cache
+C:\src\.Net\pythonproject\FruitsTraceabilitySystem\Application\FruitsTraceabilitySystem.Application\obj\x64\Debug\net6.0\FruitsTraceabilitySystem.Application.csproj.CopyComplete
+C:\src\.Net\pythonproject\FruitsTraceabilitySystem\Application\FruitsTraceabilitySystem.Application\obj\x64\Debug\net6.0\FruitsTraceabilitySystem.Application.dll
+C:\src\.Net\pythonproject\FruitsTraceabilitySystem\Application\FruitsTraceabilitySystem.Application\obj\x64\Debug\net6.0\ref\FruitsTraceabilitySystem.Application.dll
+C:\src\.Net\pythonproject\FruitsTraceabilitySystem\Application\FruitsTraceabilitySystem.Application\obj\x64\Debug\net6.0\FruitsTraceabilitySystem.Application.pdb

@@ -2069,23 +2069,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Klementina\\.nuget\\packages\\": {},
+    "C:\\Users\\USER-PC\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Klementina\\Desktop\\Python Project\\pythonproject\\FruitsTraceabilitySystem\\Application\\FruitsTraceabilitySystem.Application\\FruitsTraceabilitySystem.Application.csproj",
+      "projectUniqueName": "C:\\src\\.Net\\pythonproject\\FruitsTraceabilitySystem\\Application\\FruitsTraceabilitySystem.Application\\FruitsTraceabilitySystem.Application.csproj",
       "projectName": "FruitsTraceabilitySystem.Application",
-      "projectPath": "C:\\Users\\Klementina\\Desktop\\Python Project\\pythonproject\\FruitsTraceabilitySystem\\Application\\FruitsTraceabilitySystem.Application\\FruitsTraceabilitySystem.Application.csproj",
-      "packagesPath": "C:\\Users\\Klementina\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Klementina\\Desktop\\Python Project\\pythonproject\\FruitsTraceabilitySystem\\Application\\FruitsTraceabilitySystem.Application\\obj\\",
+      "projectPath": "C:\\src\\.Net\\pythonproject\\FruitsTraceabilitySystem\\Application\\FruitsTraceabilitySystem.Application\\FruitsTraceabilitySystem.Application.csproj",
+      "packagesPath": "C:\\Users\\USER-PC\\.nuget\\packages\\",
+      "outputPath": "C:\\src\\.Net\\pythonproject\\FruitsTraceabilitySystem\\Application\\FruitsTraceabilitySystem.Application\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Klementina\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\USER-PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -2100,8 +2100,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\Klementina\\Desktop\\Python Project\\pythonproject\\FruitsTraceabilitySystem\\Domain\\FruitsTraceabilitySystem.Domain\\FruitsTraceabilitySystem.Domain.csproj": {
-              "projectPath": "C:\\Users\\Klementina\\Desktop\\Python Project\\pythonproject\\FruitsTraceabilitySystem\\Domain\\FruitsTraceabilitySystem.Domain\\FruitsTraceabilitySystem.Domain.csproj"
+            "C:\\src\\.Net\\pythonproject\\FruitsTraceabilitySystem\\Domain\\FruitsTraceabilitySystem.Domain\\FruitsTraceabilitySystem.Domain.csproj": {
+              "projectPath": "C:\\src\\.Net\\pythonproject\\FruitsTraceabilitySystem\\Domain\\FruitsTraceabilitySystem.Domain\\FruitsTraceabilitySystem.Domain.csproj"
             }
           }
         }

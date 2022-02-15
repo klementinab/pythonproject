@@ -1,0 +1,32 @@
+﻿@using FruitsTraceabilitySystem.Application.ViewModels.Packangings
+@model PackangingViewModel
+<form method="post">
+    <div class="border p-3 mt-4">
+        <div class="row pb-2">
+            <h2 class="text-primary">Created Packaging</h2>
+            <hr />
+        </div>
+        <div asp-validation-summary="All"></div>
+        <div class="mb-3">
+            <label asp-for="Package"></label>
+            <select asp-for="PackageId" asp-items="ViewBag.PackageList" class="form-select">
+                <option disabled selected>--Selected Package--</option>
+            </select>
+            <span asp-validation-for="Package" class="text-danger"></span>
+        </div>
+        <div class="mb-3">
+            <label asp-for="ProductSorting"></label>
+            <select asp-for="ProductSortingId" asp-items="ViewBag.SortingList" class="form-select">
+                <option disabled selected>--Selected Sorting--</option>
+            </select>
+            <span asp-validation-for="ProductSorting" class="text-danger"></span>
+        </div>
+        <button type="submit" class="btn btn-primary" style="width:150px"><i class="fad fa-plus"></i> Created</button>
+        <a asp-controller="Packanging" asp-action="Index" class="btn btn-danger" style="width:150px"><i class="fad fa-long-arrow-left"></i> Back</a>
+    </div>
+</form>
+@section Scripts{
+    @{
+    <partial name="_ValidationScriptsPartial" />
+    }
+}

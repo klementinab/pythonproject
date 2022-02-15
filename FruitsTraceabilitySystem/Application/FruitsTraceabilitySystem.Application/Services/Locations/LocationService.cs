@@ -3,15 +3,10 @@ using FruitsTraceabilitySystem.Application.Interfaces.Locations;
 using FruitsTraceabilitySystem.Application.ViewModels.Locations;
 using FruitsTraceabilitySystem.Domain.Interfaces.UnitOfWork;
 using FruitsTraceabilitySystem.Domain.Models.Locations;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace FruitsTraceabilitySystem.Application.Services.Locations
 {
-    public class LocationService: ILocationService
+    public class LocationService : ILocationService
     {
         #region Properties
         private readonly IMapper _mapper;

@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.ComponentModel.DataAnnotations;
 
 namespace FruitsTraceabilitySystem.Domain.Models.Locations
 {
@@ -11,10 +6,9 @@ namespace FruitsTraceabilitySystem.Domain.Models.Locations
     {
         #region Properties
         [Key]
-        public int Id { get; set; }
+        public int? Id { get; set; }
         [Required]
         public string? PlaceName { get; set; }
-       
         #endregion
     }
 }
