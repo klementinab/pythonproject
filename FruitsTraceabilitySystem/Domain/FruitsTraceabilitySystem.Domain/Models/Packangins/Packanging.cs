@@ -1,4 +1,5 @@
 ﻿using FruitsTraceabilitySystem.Domain.Models.Packages;
+using FruitsTraceabilitySystem.Domain.Models.Products;
 using FruitsTraceabilitySystem.Domain.Models.Sortings;
 using FruitsTraceabilitySystem.Domain.Models.Users;
 using System.ComponentModel.DataAnnotations;
@@ -17,6 +18,8 @@ namespace FruitsTraceabilitySystem.Domain.Models.Packangins
         public Sorting? ProductSorting { get; set; }
         public string? UserId { get; set; }
         public ApplicationUser? User { get; set; }
+        public int? ProductId { get; set; }
+        public Product? Products { get; set; }
         #endregion
     }
 }

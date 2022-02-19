@@ -29,7 +29,8 @@ namespace FruitsTraceabilitySystem.Application.Services.Packangings
         }
         public PackangingViewModel GetFirstOrDefault(int? Id, string? includeProperties = null)
         {
-            var packangings = _unitOfWork.Packanging.GetFirstOrDefault(x => x.Id == Id);
+            var packangings = _unitOfWork.Packanging.GetFirstOrDefault(x => x.Id == Id, includeProperties);
+            //var packangings = _unitOfWork.Packanging.GetFirstOrDefault(x => x.Id == Id);
             return _mapper.Map<PackangingViewModel>(packangings);
         }
         public void Add(PackangingViewModel packangingView)

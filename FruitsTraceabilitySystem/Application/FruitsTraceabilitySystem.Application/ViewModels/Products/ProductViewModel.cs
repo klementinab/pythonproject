@@ -1,5 +1,6 @@
 ﻿using FruitsTraceabilitySystem.Application.ViewModels.Categories;
 using FruitsTraceabilitySystem.Application.ViewModels.Harvests;
+using FruitsTraceabilitySystem.Application.ViewModels.Packangings;
 using FruitsTraceabilitySystem.Application.ViewModels.Sortings;
 
 namespace FruitsTraceabilitySystem.Application.ViewModels.Products
@@ -14,6 +15,7 @@ namespace FruitsTraceabilitySystem.Application.ViewModels.Products
         public virtual CategoryViewModel? Category { get; set; }
 
         public ICollection<HarvestViewModel>? Harvests { get; set; }
+        public ICollection<PackangingViewModel>? Packangings { get; set; }  
         #endregion
     }
 }

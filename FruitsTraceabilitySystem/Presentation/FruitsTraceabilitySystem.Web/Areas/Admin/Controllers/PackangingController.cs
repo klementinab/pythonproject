@@ -1,8 +1,8 @@
 ﻿using FruitsTraceabilitySystem.Application.Interfaces.Harvests;
 using FruitsTraceabilitySystem.Application.Interfaces.Packages;
 using FruitsTraceabilitySystem.Application.Interfaces.Packangings;
+using FruitsTraceabilitySystem.Application.Interfaces.Products;
 using FruitsTraceabilitySystem.Application.Interfaces.Sortings;
-using FruitsTraceabilitySystem.Application.ViewModels.Harvests;
 using FruitsTraceabilitySystem.Application.ViewModels.Packangings;
 using FruitsTraceabilitySystem.Application.ViewModels.Sortings;
 using FruitsTraceabilitySystem.Domain.Models.SeedRoles;
@@ -22,15 +22,17 @@ namespace FruitsTraceabilitySystem.Web.Areas.Admin.Controllers
         private readonly ISortingService _sortingService;
         private readonly IHarvestService _harvestService;
         private readonly IPackageService _packageService;
+        private readonly IProductService _productService;
         #endregion
 
         #region Constructors
-        public PackangingController(IPackangingService packangingService, ISortingService sortingService, IHarvestService harvestService, IPackageService packageService)
+        public PackangingController(IPackangingService packangingService, ISortingService sortingService, IHarvestService harvestService, IPackageService packageService, IProductService productService)
         {
             _packangingService = packangingService ?? throw new ArgumentNullException(nameof(packangingService));
             _sortingService = sortingService ?? throw new ArgumentNullException(nameof(sortingService));
             _harvestService = harvestService ?? throw new ArgumentNullException(nameof(harvestService));
             _packageService = packageService ?? throw new ArgumentNullException(nameof(packageService));
+            _productService = productService ?? throw new ArgumentNullException(nameof(productService));
         }
         #endregion
 
@@ -76,6 +78,9 @@ namespace FruitsTraceabilitySystem.Web.Areas.Admin.Controllers
         {
             if (ModelState.IsValid)
             {
+                var sorting = _sortingService.GetFirstOrDefault(packanging.ProductSortingId, includeProperties: "Harvest");
+                var harvest = _harvestService.GetFirstOrDefault(sorting.Id, includeProperties: "Product");
+                packanging.ProductId = harvest.Product.Id;
                 packanging.UserId = HttpContext.User.FindFirstValue(ClaimTypes.NameIdentifier);
                 _packangingService.Add(packanging);
                 TempData["success"] = "Packanging created successfully";
@@ -90,19 +95,25 @@ namespace FruitsTraceabilitySystem.Web.Areas.Admin.Controllers
             {
                 return NotFound();
             }
-            var packanging = _packangingService.GetFirstOrDefault(Id, includeProperties: "ProductSorting,Package,User");
+            var packanging = _packangingService.GetFirstOrDefault(Id, includeProperties: "ProductSorting,Package,User,Products");
             IEnumerable<SelectListItem> PackageList = _packageService.GetAll()
                 .Select(x => new SelectListItem
                 {
                     Text = x.Name,
                     Value = x.Id.ToString()
                 });
+            List<SortingViewModel> sortings = _sortingService.GetAll(includeProperties: "Harvest").ToList();
+            sortings.ForEach(x =>
+            {
+                x.ProductName = _harvestService.GetFirstOrDefault(x.HarvestId, includeProperties: "Product").Product.Name;
+            });
+            IEnumerable<SelectListItem> SortingList = sortings.Select(x => new SelectListItem
+            {
+                Text = x.ProductName,
+                Value = x.Id.ToString()
+            });
             ViewBag.PackageList = PackageList;
-            var sortingServices = _sortingService.GetFirstOrDefault(packanging.ProductSortingId, includeProperties: "Harvest");
-            packanging.ProductSortingId = _harvestService.GetFirstOrDefault(sortingServices.Id, includeProperties: "Product").Product.Id;
-            packanging.ProductSortingName = _harvestService.GetFirstOrDefault(sortingServices.Id, includeProperties: "Product").Product.Name;
-            
-            ViewBag.ProductList = packanging;
+            ViewBag.ProductList = SortingList;
             if (packanging == null)
             {
                 return NotFound();
@@ -115,6 +126,10 @@ namespace FruitsTraceabilitySystem.Web.Areas.Admin.Controllers
         {
             if (ModelState.IsValid)
             {
+                var sorting = _sortingService.GetFirstOrDefault(packangingView.ProductSortingId, includeProperties: "Harvest");
+                var harvest = _harvestService.GetFirstOrDefault(sorting.Id, includeProperties: "Product");
+                packangingView.ProductId = harvest.Product.Id;
+                packangingView.UserId = HttpContext.User.FindFirstValue(ClaimTypes.NameIdentifier);
                 _packangingService.Update(packangingView);
                 TempData["success"] = "Packanging edit successfully";
                 return RedirectToAction("Index");
