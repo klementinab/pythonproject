@@ -83,12 +83,6 @@ namespace FruitsTraceabilitySystem.Infra.Data.Context
               .HasForeignKey(x => x.UserId)
               .OnDelete(DeleteBehavior.Restrict)
               .IsRequired();
-            builder.Entity<Packanging>()
-               .HasOne(x => x.Products)
-               .WithMany(x => x.Packangings)
-               .HasForeignKey(x => x.ProductId)
-               .OnDelete(DeleteBehavior.Restrict)
-               .IsRequired();
         }
         #endregion
     }

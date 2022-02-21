@@ -19,9 +19,7 @@ namespace FruitsTraceabilitySystem.Domain.Models.Products
         public int? CategoryId { get; set; }
         public Category? Category { get; set; }
 
-        public ICollection<Harvest>? Harvests { get; set; }
-        public ICollection<Packanging>? Packangings { get; set; }
-        //public ICollection<Packanging>? Packangings { get; set; }          
+        public ICollection<Harvest>? Harvests { get; set; }        
         #endregion
     }
 }

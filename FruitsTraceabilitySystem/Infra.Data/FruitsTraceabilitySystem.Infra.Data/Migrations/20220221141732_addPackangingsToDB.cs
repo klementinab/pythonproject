@@ -4,7 +4,7 @@
 
 namespace FruitsTraceabilitySystem.Service.DataAccess.Migrations
 {
-    public partial class addPackangingToDb : Migration
+    public partial class addPackangingsToDB : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
@@ -16,8 +16,7 @@ namespace FruitsTraceabilitySystem.Service.DataAccess.Migrations
                         .Annotation("SqlServer:Identity", "1, 1"),
                     PackageId = table.Column<int>(type: "int", nullable: false),
                     ProductSortingId = table.Column<int>(type: "int", nullable: false),
-                    UserId = table.Column<string>(type: "nvarchar(450)", nullable: false),
-                    ProductId = table.Column<int>(type: "int", nullable: false)
+                    UserId = table.Column<string>(type: "nvarchar(450)", nullable: false)
                 },
                 constraints: table =>
                 {
@@ -35,12 +34,6 @@ namespace FruitsTraceabilitySystem.Service.DataAccess.Migrations
                         principalColumn: "Id",
                         onDelete: ReferentialAction.Restrict);
                     table.ForeignKey(
-                        name: "FK_Packangings_Products_ProductId",
-                        column: x => x.ProductId,
-                        principalTable: "Products",
-                        principalColumn: "Id",
-                        onDelete: ReferentialAction.Restrict);
-                    table.ForeignKey(
                         name: "FK_Packangings_Sortings_ProductSortingId",
                         column: x => x.ProductSortingId,
                         principalTable: "Sortings",
@@ -52,11 +45,6 @@ namespace FruitsTraceabilitySystem.Service.DataAccess.Migrations
                 name: "IX_Packangings_PackageId",
                 table: "Packangings",
                 column: "PackageId");
-
-            migrationBuilder.CreateIndex(
-                name: "IX_Packangings_ProductId",
-                table: "Packangings",
-                column: "ProductId");
 
             migrationBuilder.CreateIndex(
                 name: "IX_Packangings_ProductSortingId",

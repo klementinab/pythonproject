@@ -1140,14 +1140,6 @@ C:\Users\Klementina\Desktop\Python Project\pythonproject\FruitsTraceabilitySyste
 C:\Users\Klementina\Desktop\Python Project\pythonproject\FruitsTraceabilitySystem\Presentation\FruitsTraceabilitySystem.Web\obj\x64\Debug\net6.0\ref\FruitsTraceabilitySystem.Web.dll
 C:\Users\Klementina\Desktop\Python Project\pythonproject\FruitsTraceabilitySystem\Presentation\FruitsTraceabilitySystem.Web\obj\x64\Debug\net6.0\FruitsTraceabilitySystem.Web.pdb
 C:\Users\Klementina\Desktop\Python Project\pythonproject\FruitsTraceabilitySystem\Presentation\FruitsTraceabilitySystem.Web\obj\x64\Debug\net6.0\FruitsTraceabilitySystem.Web.genruntimeconfig.cache
-C:\src\.Net\pythonproject\FruitsTraceabilitySystem\Presentation\FruitsTraceabilitySystem.Web\bin\x64\Debug\net6.0\Microsoft.AspNetCore.Razor.Language.dll
-C:\src\.Net\pythonproject\FruitsTraceabilitySystem\Presentation\FruitsTraceabilitySystem.Web\bin\x64\Debug\net6.0\Microsoft.Build.Locator.dll
-C:\src\.Net\pythonproject\FruitsTraceabilitySystem\Presentation\FruitsTraceabilitySystem.Web\bin\x64\Debug\net6.0\Microsoft.CodeAnalysis.AnalyzerUtilities.dll
-C:\src\.Net\pythonproject\FruitsTraceabilitySystem\Presentation\FruitsTraceabilitySystem.Web\bin\x64\Debug\net6.0\Microsoft.CodeAnalysis.VisualBasic.Features.dll
-C:\src\.Net\pythonproject\FruitsTraceabilitySystem\Presentation\FruitsTraceabilitySystem.Web\bin\x64\Debug\net6.0\NuGet.Configuration.dll
-C:\src\.Net\pythonproject\FruitsTraceabilitySystem\Presentation\FruitsTraceabilitySystem.Web\bin\x64\Debug\net6.0\NuGet.Packaging.dll
-C:\src\.Net\pythonproject\FruitsTraceabilitySystem\Presentation\FruitsTraceabilitySystem.Web\bin\x64\Debug\net6.0\it\Microsoft.CodeAnalysis.VisualBasic.resources.dll
-C:\src\.Net\pythonproject\FruitsTraceabilitySystem\Presentation\FruitsTraceabilitySystem.Web\bin\x64\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
 C:\src\.Net\pythonproject\FruitsTraceabilitySystem\Presentation\FruitsTraceabilitySystem.Web\bin\x64\Debug\net6.0\appsettings.Development.json
 C:\src\.Net\pythonproject\FruitsTraceabilitySystem\Presentation\FruitsTraceabilitySystem.Web\bin\x64\Debug\net6.0\appsettings.json
 C:\src\.Net\pythonproject\FruitsTraceabilitySystem\Presentation\FruitsTraceabilitySystem.Web\bin\x64\Debug\net6.0\libman.json
@@ -1457,7 +1449,10 @@ C:\src\.Net\pythonproject\FruitsTraceabilitySystem\Presentation\FruitsTraceabili
 C:\src\.Net\pythonproject\FruitsTraceabilitySystem\Presentation\FruitsTraceabilitySystem.Web\bin\x64\Debug\net6.0\Microsoft.AspNetCore.Identity.UI.dll
 C:\src\.Net\pythonproject\FruitsTraceabilitySystem\Presentation\FruitsTraceabilitySystem.Web\bin\x64\Debug\net6.0\Microsoft.AspNetCore.Mvc.Razor.Extensions.dll
 C:\src\.Net\pythonproject\FruitsTraceabilitySystem\Presentation\FruitsTraceabilitySystem.Web\bin\x64\Debug\net6.0\Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation.dll
+C:\src\.Net\pythonproject\FruitsTraceabilitySystem\Presentation\FruitsTraceabilitySystem.Web\bin\x64\Debug\net6.0\Microsoft.AspNetCore.Razor.Language.dll
 C:\src\.Net\pythonproject\FruitsTraceabilitySystem\Presentation\FruitsTraceabilitySystem.Web\bin\x64\Debug\net6.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\src\.Net\pythonproject\FruitsTraceabilitySystem\Presentation\FruitsTraceabilitySystem.Web\bin\x64\Debug\net6.0\Microsoft.Build.Locator.dll
+C:\src\.Net\pythonproject\FruitsTraceabilitySystem\Presentation\FruitsTraceabilitySystem.Web\bin\x64\Debug\net6.0\Microsoft.CodeAnalysis.AnalyzerUtilities.dll
 C:\src\.Net\pythonproject\FruitsTraceabilitySystem\Presentation\FruitsTraceabilitySystem.Web\bin\x64\Debug\net6.0\Microsoft.CodeAnalysis.dll
 C:\src\.Net\pythonproject\FruitsTraceabilitySystem\Presentation\FruitsTraceabilitySystem.Web\bin\x64\Debug\net6.0\Microsoft.CodeAnalysis.CSharp.dll
 C:\src\.Net\pythonproject\FruitsTraceabilitySystem\Presentation\FruitsTraceabilitySystem.Web\bin\x64\Debug\net6.0\Microsoft.CodeAnalysis.CSharp.Features.dll
@@ -1467,6 +1462,7 @@ C:\src\.Net\pythonproject\FruitsTraceabilitySystem\Presentation\FruitsTraceabili
 C:\src\.Net\pythonproject\FruitsTraceabilitySystem\Presentation\FruitsTraceabilitySystem.Web\bin\x64\Debug\net6.0\Microsoft.CodeAnalysis.Razor.dll
 C:\src\.Net\pythonproject\FruitsTraceabilitySystem\Presentation\FruitsTraceabilitySystem.Web\bin\x64\Debug\net6.0\Microsoft.CodeAnalysis.Scripting.dll
 C:\src\.Net\pythonproject\FruitsTraceabilitySystem\Presentation\FruitsTraceabilitySystem.Web\bin\x64\Debug\net6.0\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\src\.Net\pythonproject\FruitsTraceabilitySystem\Presentation\FruitsTraceabilitySystem.Web\bin\x64\Debug\net6.0\Microsoft.CodeAnalysis.VisualBasic.Features.dll
 C:\src\.Net\pythonproject\FruitsTraceabilitySystem\Presentation\FruitsTraceabilitySystem.Web\bin\x64\Debug\net6.0\Microsoft.CodeAnalysis.VisualBasic.Workspaces.dll
 C:\src\.Net\pythonproject\FruitsTraceabilitySystem\Presentation\FruitsTraceabilitySystem.Web\bin\x64\Debug\net6.0\Microsoft.CodeAnalysis.Workspaces.dll
 C:\src\.Net\pythonproject\FruitsTraceabilitySystem\Presentation\FruitsTraceabilitySystem.Web\bin\x64\Debug\net6.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.dll
@@ -1500,9 +1496,11 @@ C:\src\.Net\pythonproject\FruitsTraceabilitySystem\Presentation\FruitsTraceabili
 C:\src\.Net\pythonproject\FruitsTraceabilitySystem\Presentation\FruitsTraceabilitySystem.Web\bin\x64\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
 C:\src\.Net\pythonproject\FruitsTraceabilitySystem\Presentation\FruitsTraceabilitySystem.Web\bin\x64\Debug\net6.0\Newtonsoft.Json.dll
 C:\src\.Net\pythonproject\FruitsTraceabilitySystem\Presentation\FruitsTraceabilitySystem.Web\bin\x64\Debug\net6.0\NuGet.Common.dll
+C:\src\.Net\pythonproject\FruitsTraceabilitySystem\Presentation\FruitsTraceabilitySystem.Web\bin\x64\Debug\net6.0\NuGet.Configuration.dll
 C:\src\.Net\pythonproject\FruitsTraceabilitySystem\Presentation\FruitsTraceabilitySystem.Web\bin\x64\Debug\net6.0\NuGet.DependencyResolver.Core.dll
 C:\src\.Net\pythonproject\FruitsTraceabilitySystem\Presentation\FruitsTraceabilitySystem.Web\bin\x64\Debug\net6.0\NuGet.Frameworks.dll
 C:\src\.Net\pythonproject\FruitsTraceabilitySystem\Presentation\FruitsTraceabilitySystem.Web\bin\x64\Debug\net6.0\NuGet.LibraryModel.dll
+C:\src\.Net\pythonproject\FruitsTraceabilitySystem\Presentation\FruitsTraceabilitySystem.Web\bin\x64\Debug\net6.0\NuGet.Packaging.dll
 C:\src\.Net\pythonproject\FruitsTraceabilitySystem\Presentation\FruitsTraceabilitySystem.Web\bin\x64\Debug\net6.0\NuGet.ProjectModel.dll
 C:\src\.Net\pythonproject\FruitsTraceabilitySystem\Presentation\FruitsTraceabilitySystem.Web\bin\x64\Debug\net6.0\NuGet.Protocol.dll
 C:\src\.Net\pythonproject\FruitsTraceabilitySystem\Presentation\FruitsTraceabilitySystem.Web\bin\x64\Debug\net6.0\NuGet.Versioning.dll
@@ -1613,6 +1611,7 @@ C:\src\.Net\pythonproject\FruitsTraceabilitySystem\Presentation\FruitsTraceabili
 C:\src\.Net\pythonproject\FruitsTraceabilitySystem\Presentation\FruitsTraceabilitySystem.Web\bin\x64\Debug\net6.0\de\Microsoft.CodeAnalysis.VisualBasic.resources.dll
 C:\src\.Net\pythonproject\FruitsTraceabilitySystem\Presentation\FruitsTraceabilitySystem.Web\bin\x64\Debug\net6.0\es\Microsoft.CodeAnalysis.VisualBasic.resources.dll
 C:\src\.Net\pythonproject\FruitsTraceabilitySystem\Presentation\FruitsTraceabilitySystem.Web\bin\x64\Debug\net6.0\fr\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\src\.Net\pythonproject\FruitsTraceabilitySystem\Presentation\FruitsTraceabilitySystem.Web\bin\x64\Debug\net6.0\it\Microsoft.CodeAnalysis.VisualBasic.resources.dll
 C:\src\.Net\pythonproject\FruitsTraceabilitySystem\Presentation\FruitsTraceabilitySystem.Web\bin\x64\Debug\net6.0\ja\Microsoft.CodeAnalysis.VisualBasic.resources.dll
 C:\src\.Net\pythonproject\FruitsTraceabilitySystem\Presentation\FruitsTraceabilitySystem.Web\bin\x64\Debug\net6.0\ko\Microsoft.CodeAnalysis.VisualBasic.resources.dll
 C:\src\.Net\pythonproject\FruitsTraceabilitySystem\Presentation\FruitsTraceabilitySystem.Web\bin\x64\Debug\net6.0\pl\Microsoft.CodeAnalysis.VisualBasic.resources.dll
@@ -1673,6 +1672,7 @@ C:\src\.Net\pythonproject\FruitsTraceabilitySystem\Presentation\FruitsTraceabili
 C:\src\.Net\pythonproject\FruitsTraceabilitySystem\Presentation\FruitsTraceabilitySystem.Web\bin\x64\Debug\net6.0\tr\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
 C:\src\.Net\pythonproject\FruitsTraceabilitySystem\Presentation\FruitsTraceabilitySystem.Web\bin\x64\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
 C:\src\.Net\pythonproject\FruitsTraceabilitySystem\Presentation\FruitsTraceabilitySystem.Web\bin\x64\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\src\.Net\pythonproject\FruitsTraceabilitySystem\Presentation\FruitsTraceabilitySystem.Web\bin\x64\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
 C:\src\.Net\pythonproject\FruitsTraceabilitySystem\Presentation\FruitsTraceabilitySystem.Web\bin\x64\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
 C:\src\.Net\pythonproject\FruitsTraceabilitySystem\Presentation\FruitsTraceabilitySystem.Web\bin\x64\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
 C:\src\.Net\pythonproject\FruitsTraceabilitySystem\Presentation\FruitsTraceabilitySystem.Web\bin\x64\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll

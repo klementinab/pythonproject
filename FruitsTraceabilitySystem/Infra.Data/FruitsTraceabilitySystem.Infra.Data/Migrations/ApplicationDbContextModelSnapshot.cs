@@ -116,10 +116,6 @@ namespace FruitsTraceabilitySystem.Service.DataAccess.Migrations
                         .IsRequired()
                         .HasColumnType("int");
 
-                    b.Property<int?>("ProductId")
-                        .IsRequired()
-                        .HasColumnType("int");
-
                     b.Property<int?>("ProductSortingId")
                         .IsRequired()
                         .HasColumnType("int");
@@ -131,8 +127,6 @@ namespace FruitsTraceabilitySystem.Service.DataAccess.Migrations
                     b.HasKey("Id");
 
                     b.HasIndex("PackageId");
-
-                    b.HasIndex("ProductId");
 
                     b.HasIndex("ProductSortingId");
 
@@ -447,12 +441,6 @@ namespace FruitsTraceabilitySystem.Service.DataAccess.Migrations
                         .OnDelete(DeleteBehavior.Restrict)
                         .IsRequired();
 
-                    b.HasOne("FruitsTraceabilitySystem.Domain.Models.Products.Product", "Products")
-                        .WithMany("Packangings")
-                        .HasForeignKey("ProductId")
-                        .OnDelete(DeleteBehavior.Restrict)
-                        .IsRequired();
-
                     b.HasOne("FruitsTraceabilitySystem.Domain.Models.Sortings.Sorting", "ProductSorting")
                         .WithMany("Packangings")
                         .HasForeignKey("ProductSortingId")
@@ -468,8 +456,6 @@ namespace FruitsTraceabilitySystem.Service.DataAccess.Migrations
                     b.Navigation("Package");
 
                     b.Navigation("ProductSorting");
-
-                    b.Navigation("Products");
 
                     b.Navigation("User");
                 });
@@ -573,8 +559,6 @@ namespace FruitsTraceabilitySystem.Service.DataAccess.Migrations
             modelBuilder.Entity("FruitsTraceabilitySystem.Domain.Models.Products.Product", b =>
                 {
                     b.Navigation("Harvests");
-
-                    b.Navigation("Packangings");
                 });
 
             modelBuilder.Entity("FruitsTraceabilitySystem.Domain.Models.Sortings.Sorting", b =>

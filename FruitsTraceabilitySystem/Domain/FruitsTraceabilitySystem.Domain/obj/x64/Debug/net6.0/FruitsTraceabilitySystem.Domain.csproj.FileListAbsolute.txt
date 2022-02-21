@@ -26,7 +26,6 @@ C:\src\.Net\pythonproject\FruitsTraceabilitySystem\Domain\FruitsTraceabilitySyst
 C:\src\.Net\pythonproject\FruitsTraceabilitySystem\Domain\FruitsTraceabilitySystem.Domain\bin\x64\Debug\net6.0\FruitsTraceabilitySystem.Domain.dll
 C:\src\.Net\pythonproject\FruitsTraceabilitySystem\Domain\FruitsTraceabilitySystem.Domain\bin\x64\Debug\net6.0\ref\FruitsTraceabilitySystem.Domain.dll
 C:\src\.Net\pythonproject\FruitsTraceabilitySystem\Domain\FruitsTraceabilitySystem.Domain\bin\x64\Debug\net6.0\FruitsTraceabilitySystem.Domain.pdb
-C:\src\.Net\pythonproject\FruitsTraceabilitySystem\Domain\FruitsTraceabilitySystem.Domain\obj\x64\Debug\net6.0\FruitsTraceabilitySystem.Domain.csproj.AssemblyReference.cache
 C:\src\.Net\pythonproject\FruitsTraceabilitySystem\Domain\FruitsTraceabilitySystem.Domain\obj\x64\Debug\net6.0\FruitsTraceabilitySystem.Domain.GeneratedMSBuildEditorConfig.editorconfig
 C:\src\.Net\pythonproject\FruitsTraceabilitySystem\Domain\FruitsTraceabilitySystem.Domain\obj\x64\Debug\net6.0\FruitsTraceabilitySystem.Domain.AssemblyInfoInputs.cache
 C:\src\.Net\pythonproject\FruitsTraceabilitySystem\Domain\FruitsTraceabilitySystem.Domain\obj\x64\Debug\net6.0\FruitsTraceabilitySystem.Domain.AssemblyInfo.cs

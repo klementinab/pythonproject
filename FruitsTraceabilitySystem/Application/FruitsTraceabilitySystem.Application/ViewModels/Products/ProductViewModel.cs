@@ -15,7 +15,6 @@ namespace FruitsTraceabilitySystem.Application.ViewModels.Products
         public virtual CategoryViewModel? Category { get; set; }
 
         public ICollection<HarvestViewModel>? Harvests { get; set; }
-        public ICollection<PackangingViewModel>? Packangings { get; set; }  
         #endregion
     }
 }

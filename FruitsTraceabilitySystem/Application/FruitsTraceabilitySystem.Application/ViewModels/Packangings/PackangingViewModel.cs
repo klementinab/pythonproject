@@ -13,8 +13,6 @@ namespace FruitsTraceabilitySystem.Application.ViewModels.Packangings
         public PackageViewModel? Package { get; set; }
         public int? ProductSortingId { get; set; }
         public SortingViewModel? ProductSorting { get; set; }
-        public int? ProductId { get; set; }
-        public ProductViewModel? Products { get; set; }
         public string? UserId { get; set; }
         public ApplicationUser? User { get; set; }
         public string? ProductSortingName { get; set; }

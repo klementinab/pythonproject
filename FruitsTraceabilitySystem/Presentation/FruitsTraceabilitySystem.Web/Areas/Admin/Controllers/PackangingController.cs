@@ -78,9 +78,6 @@ namespace FruitsTraceabilitySystem.Web.Areas.Admin.Controllers
         {
             if (ModelState.IsValid)
             {
-                var sorting = _sortingService.GetFirstOrDefault(packanging.ProductSortingId, includeProperties: "Harvest");
-                var harvest = _harvestService.GetFirstOrDefault(sorting.Id, includeProperties: "Product");
-                packanging.ProductId = harvest.Product.Id;
                 packanging.UserId = HttpContext.User.FindFirstValue(ClaimTypes.NameIdentifier);
                 _packangingService.Add(packanging);
                 TempData["success"] = "Packanging created successfully";
@@ -95,7 +92,7 @@ namespace FruitsTraceabilitySystem.Web.Areas.Admin.Controllers
             {
                 return NotFound();
             }
-            var packanging = _packangingService.GetFirstOrDefault(Id, includeProperties: "ProductSorting,Package,User,Products");
+            var packanging = _packangingService.GetFirstOrDefault(Id, includeProperties: "ProductSorting,Package,User");
             IEnumerable<SelectListItem> PackageList = _packageService.GetAll()
                 .Select(x => new SelectListItem
                 {
@@ -126,9 +123,6 @@ namespace FruitsTraceabilitySystem.Web.Areas.Admin.Controllers
         {
             if (ModelState.IsValid)
             {
-                var sorting = _sortingService.GetFirstOrDefault(packangingView.ProductSortingId, includeProperties: "Harvest");
-                var harvest = _harvestService.GetFirstOrDefault(sorting.Id, includeProperties: "Product");
-                packangingView.ProductId = harvest.Product.Id;
                 packangingView.UserId = HttpContext.User.FindFirstValue(ClaimTypes.NameIdentifier);
                 _packangingService.Update(packangingView);
                 TempData["success"] = "Packanging edit successfully";
@@ -143,7 +137,25 @@ namespace FruitsTraceabilitySystem.Web.Areas.Admin.Controllers
             {
                 return NotFound();
             }
-            var packangingView = _packangingService.GetFirstOrDefault(Id);
+            var packangingView = _packangingService.GetFirstOrDefault(Id, includeProperties: "ProductSorting,Package,User");
+            IEnumerable<SelectListItem> PackageList = _packageService.GetAll()
+                .Select(x => new SelectListItem
+                {
+                    Text = x.Name,
+                    Value = x.Id.ToString()
+                });
+            List<SortingViewModel> sortings = _sortingService.GetAll(includeProperties: "Harvest").ToList();
+            sortings.ForEach(x =>
+            {
+                x.ProductName = _harvestService.GetFirstOrDefault(x.HarvestId, includeProperties: "Product").Product.Name;
+            });
+            IEnumerable<SelectListItem> SortingList = sortings.Select(x => new SelectListItem
+            {
+                Text = x.ProductName,
+                Value = x.Id.ToString()
+            });
+            ViewBag.PackageList = PackageList;
+            ViewBag.ProductList = SortingList;
             if (packangingView == null)
             {
                 return NotFound();
